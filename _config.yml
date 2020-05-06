@@ -1,0 +1,15 @@
+title: blog
+email: me@jett.dev
+description: >-
+        jett's blog
+baseurl: ""
+url: "htps://blog.jett.dev"
+
+# Build settings
+remote_theme: chesterhow/tale
+permalink: /:year-:month-:day/:title
+paginate: 5
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+
