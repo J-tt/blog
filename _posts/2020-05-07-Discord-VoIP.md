@@ -20,3 +20,11 @@ And then I had an idea I couldn't really shake, why not build that into discord?
 Turns out this was harder than I'd hoped.
 
 
+# Scratchpad
+
+```
+Use below?
+https://github.com/ricardojlrufino/sipsimpleclient-example/blob/master/sample.py
+
+```
+
