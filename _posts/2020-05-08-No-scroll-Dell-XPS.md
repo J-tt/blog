@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Jett
-published: false
+published: true
 title: No scroll on Dell XPS 9300
 date: 2020-05-08 20:37:00 +0800
 categories: [issue, Dell]
