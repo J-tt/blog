@@ -15,6 +15,7 @@ So, to get to the task at hand, I was brought an issue which was to automaticall
 
 Getting ready for this is super simple, all you need is the correct license for Power Automate, an intune deployment and an Azure AD environment. You'll also need to create an Azure AD group for the users that have signed the form, keep a note of the Group ID, we'll come back to that later.
 
+The final bit of setup is to find the app in intune, edit the assignments and add the group you've just created into the required section.
 
 # The Flow
 
@@ -27,5 +28,3 @@ Now we'll have an optional step, which is using the form response to decide whet
 
 Now we add the last bits which is using the Azure AD "Get User" block to pull the User ID from the Responders Email and then use "Add User to Group" to add the userId we just retrieved to the group ID I mentioned to save previously.
 
-
-#
