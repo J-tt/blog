@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Jett
-published: true
+published: false
 title: Automating Intune App Deployments with Power Automate
 date: 2020-05-08 21:53:00 +0800
 categories: [howto, automation, microsoft]
