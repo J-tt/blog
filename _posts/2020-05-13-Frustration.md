@@ -26,4 +26,4 @@ Althoughg as I slowly begin to feel myself running out of things to say about th
 
 I wonder, if it is worth writing this into the void, I know a few people who might read it, I'm sure they might be interested to learn something I've never really expressed, I wonder again if they might offer a solution.
 
-Editing this post I feel that it has helped, the feeling has subsided, replaced by a content exhaustion, a feeling that maybe this time I did achieve something. While these thoughts cross my mind the anxiety that when this next strikes I might not have the same outlet seems to undo my lethargic contentment.
+Editing this post I feel that it has helped, the discomfort has subsided, replaced by a content exhaustion, a feeling that maybe this time I did achieve something. While these thoughts cross my mind the anxiety that when this next strikes I might not have the same outlet seems to undo my lethargic contentment.
