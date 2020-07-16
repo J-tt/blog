@@ -59,7 +59,9 @@ It's the crucial first response of a security incident that sets the tone for th
 The fallout for this event is hard to guage, and it's going to be hard to see clearly for some time.
 
 
-Immediately, it stirred a bit in US politics, with a Republican senator contacting Twitter to ask if Donald Trumps account was affected. The fact that it wasn't might come as a surprise, given the potential for mayhem. This caused many to point fingers at Russia, which would've been potential if there wasn't now additional protections due to a Twitter staff member deleting Trump's account in November 2017. But, despite Twitter's protection on Trump, ex-presidential candidate Mike Bloomberg was also affected, showing that the protections only extened so far (my guess is just Trump and Twitter's CEO). The lack of protection from impersonation will most likely spur further inquiry into how Twitter handles security, which may culminate in Twitter CEO Jack Dorsey being dragged in front of Congress once more.
+Immediately, it stirred a bit in US politics, with a Republican senator contacting Twitter to ask if Donald Trumps account was affected. The fact that it wasn't might come as a surprise, given the potential for mayhem. This caused many to point fingers at Russia, which would've been potential if there wasn't now additional protections due to a Twitter staff member deleting Trump's account in November 2017. 
+
+But, despite Twitter's protection on Trump, ex-presidential candidate Mike Bloomberg was also affected, showing that the protections only extened so far (my guess is just Trump and Twitter's CEO). The lack of protection from impersonation will most likely spur further govermental inquiry into how Twitter handles security, which may culminate in Twitter CEO Jack Dorsey being dragged in front of Congress once more.
 
 But, while politics may be interesting...
 
