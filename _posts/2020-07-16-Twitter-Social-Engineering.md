@@ -23,9 +23,9 @@ _([source](https://xkcd.com/2030/))_
 The summary of the facts as they stand is this:
 
 1. A bunch of high profile celebrity accounts advertised a Bitcoin scam (in this case "Send me your money and I'll send twice as much back")
-2. A selection of people fell for it, netting the scammers roughly 110k USD (I'll come back to this, don't worry)
+2. A selection of people fell for it, netting the scammers who'd broken into the accounts roughly 110k USD (I'll come back to this, don't worry)
 3. Twitter support took a few hours to actually shut the whole thing down (and was still cleaning up for awhile after that)
-4. Vice managed to get in touch with the "hackers"
+4. Vice managed to get in touch with the "hackers" who revealed that a Twitter employee gave them access
 
 
 # How'd they do it?
