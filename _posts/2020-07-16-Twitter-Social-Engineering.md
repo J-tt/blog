@@ -56,7 +56,7 @@ It's the crucial first response of a security incident that sets the tone for th
 
 # The fallout and some speculation
 
-The fallout for this event is hard to guage, and it's going to be hard to see clearly for some time.
+The fallout for this event is hard to gauge, and it's going to be hard to see clearly for some time.
 
 
 Immediately, it stirred a bit in US politics, with a Republican senator contacting Twitter to ask if Donald Trumps account was affected. The fact that it wasn't might come as a surprise, given the potential for mayhem. This caused many to point fingers at Russia, which would've been potential if there wasn't now additional protections due to a Twitter staff member deleting Trump's account in November 2017. 
