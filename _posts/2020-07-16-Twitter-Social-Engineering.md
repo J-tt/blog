@@ -74,7 +74,11 @@ Within the infosec (read: computer security nerds) community there's a large amo
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s like managing to sneak into Fort Knox and then running off after stuffing your pockets full of quarters</p>&mdash; Pwn All The Things (@pwnallthethings) <a href="https://twitter.com/pwnallthethings/status/1283719083175882755?ref_src=twsrc%5Etfw">July 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The attack makes even less sense when you consider the difficulty in laundering large amounts of Bitcoin, there are services which effectively do this for you, but it gets harder to hide the more you have. In fact, some people so strongly believed that Bitcoin was a poor choice they chose to send the attackers messages in the form of sending them money via specially crafted Bitcoin addresses:
+The attack makes even less sense when you consider the difficulty in laundering large amounts of Bitcoin, there are services which do it for you, but it gets harder to hide the more you have. 
+
+To further illustrate why this is difficult, it's been leaked that the FBI closely monitor funds moving around the very publicly viewable Bitcoin network ([source](https://decrypt.co/34740/blueleaks-how-the-fbi-tracks-bitcoin-laundering-on-the-dark-web)). If the hackers are US based, they're looking to be in a world of hurt, especially with no way to easily flee the country in the current pandemic. 
+
+In fact, some people so strongly believed that Bitcoin was a poor choice they chose to send the attackers messages in the form of sending them money via specially crafted Bitcoin addresses:
 
 ```
 1JustReadALL1111111111111114ptkoK 0.00000666 BTC
@@ -91,6 +95,7 @@ Translation: "Just read all transaction outputs as text. You take [a] risk when 
 
 [Source for transaction data](https://www.blockchain.com/btc/tx/67b814526ae6ee78a16059bfcfc06ed7768c92c58f3409367cb180627631ddbe).
 
+<hr>
 
 A final interesting bit of note is the presence of a "search blacklist" button on the leaked Twitter screenshots within the Vice article. this backs up Vice's claims that Twitter is "shadowbanning" users on the platform (see [this](https://www.nytimes.com/2018/07/26/us/politics/twitter-shadowbanning.html) NY Times article). This bit of note was pointed out to me by a coworker, so I have to give them credit in spotting it.
 
