@@ -15,6 +15,8 @@ At time of writing they haven't given an official post mortem, something that wi
 
 ![XKCD 2030](https://imgs.xkcd.com/comics/voting_software.png){:class="img-responsive"}
 
+_([source](https://xkcd.com/2030/))_
+
 
 # So what actually happened? (The short version)
 
@@ -68,7 +70,7 @@ Or
 
 **Was it a smokescreen for harvesting DMs/Private Info/Whatever?**
 
-Within the infosec community there's a large amount of surprise and questioning of why someone with the golden ticket to Twitter's systems would leverage it on a Bitcoin scam like they did, which would be a headache to cash out properly.
+Within the infosec (read: computer security nerds) community there's a large amount of surprise and questioning of why someone with the golden ticket to Twitter's systems would leverage it on a Bitcoin scam like they did, which would be a headache to cash out properly.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s like managing to sneak into Fort Knox and then running off after stuffing your pockets full of quarters</p>&mdash; Pwn All The Things (@pwnallthethings) <a href="https://twitter.com/pwnallthethings/status/1283719083175882755?ref_src=twsrc%5Etfw">July 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -95,6 +97,7 @@ A final interesting bit of note is the presence of a "search blacklist" button o
 
 To add further weight to this, not only did Twitter vehemently deny the claim, they did so **[in front of congress](https://www.vox.com/2018/9/6/17824652/twitter-dorsey-energy-and-commerce-hearing-shadow-banning)** (see also, [The Verge's coverage](https://www.theverge.com/2018/7/27/17620194/twitter-shadow-ban-trump-conservatives-search-results)).
 
-I have to admit, while not founded in any deep logic, this casts doubt on the authenticity of the screenshots provided by Vice, which got shredded in the linked articles. The UI for the moderation tools also clash with Twitter's design philosophy slightly, but that could just be lack of polish on an internal tool.
+I have to admit, this casts doubt in my mind on the authenticity of the screenshots provided by Vice, which got shredded in the linked articles. The UI for the moderation tools also clash with Twitter's design philosophy slightly, but that could just be lack of polish on an internal tool.
 
 All in all, I'm left with many burning questions, sadly few of which I anticipate recieving a sound answer to.
+
