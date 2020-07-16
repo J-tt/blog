@@ -22,7 +22,7 @@ The summary of the facts as they stand is this:
 
 1. A bunch of high profile celebrity accounts advertised a Bitcoin scam (in this case "Send me your money and I'll send twice as much back")
 2. A selection of people fell for it, netting the scammers roughly 110k USD (I'll come back to this, don't worry)
-3. Twitter support took a few hours to actually shut the whole thing down (and was still cleaning up for awhile after it)
+3. Twitter support took a few hours to actually shut the whole thing down (and was still cleaning up for awhile after that)
 4. Vice managed to get in touch with the "hackers"
 
 
@@ -43,7 +43,7 @@ The above Tweet ([direct link](https://twitter.com/TwitterSupport/status/1283591
 
 _[source](https://www.vice.com/en_us/article/jgxd3d/twitter-insider-access-panel-account-hacks-biden-uber-bezos)_
 
-The differenc in stories is to be expected, at this stage there is most likely a PR firm consuming coffee by the litre planning out how to respond to this while the engineers at Twitter desperately try to fulfill the claims of the aforementioned PR firm.
+The difference in stories is to be expected, at this stage there is most likely a PR firm consuming coffee by the litre planning out how to respond to this while the engineers at Twitter desperately try to fulfill the claims of the aforementioned PR firm.
 
 While the above is speculation there is one thing for sure:
 
@@ -57,7 +57,7 @@ It's the crucial first response of a security incident that sets the tone for th
 The fallout for this event is hard to guage, and it's going to be hard to see clearly for some time.
 
 
-Immediately, it stirred a bit in US politics, with a Republican senator contacting Twitter to ask if Donald Trumps account was affected. The fact that it wasn't might come as a surprise, given how juicy of a target it would be. This caused many to point fingers at Russia, which would've been potential if there wasn't now additional protections due to a Twitter staff member deleting Trump's account in November 2017.
+Immediately, it stirred a bit in US politics, with a Republican senator contacting Twitter to ask if Donald Trumps account was affected. The fact that it weren't might come as a surprise, given how juicy of a target it would be. This caused many to point fingers at Russia, which would've been potential if there wasn't now additional protections due to a Twitter staff member deleting Trump's account in November 2017.
 
 
 The biggest and most interesting part of the fallout will be learning the motivation behind the Bitcoin scam:
@@ -66,7 +66,7 @@ Did someone social engineer a Twitter employee to scam money with one of the mos
 
 Or
 
-Was it a smokescreen for harvesting DMs/Private Info/Whatever?
+**Was it a smokescreen for harvesting DMs/Private Info/Whatever?**
 
 Within the infosec community there's a large amount of surprise and questioning of why someone with the golden ticket to Twitter's systems would leverage it on a Bitcoin scam like they did, which would be a headache to cash out properly.
 
@@ -83,9 +83,18 @@ The attack makes even less sense when you consider the difficulty in laundering 
 1WhyNotMonero777777777777a14A99D8 0.00000671 BTC
 ```
 
-Translation: "Just read all transaction outputs as text. You take [a] risk when you use Bitcion for your Twitter game. Bitcion is traceable. Why not Monero[?]"
+Translation: "Just read all transaction outputs as text. You take [a] risk when you use Bitcoin for your Twitter game. Bitcoin is traceable. Why not Monero[?]"
 
 ([Monero](https://en.wikipedia.org/wiki/Monero_%28cryptocurrency%29) is another cryptocurrency, which focuses more on privacy)
 
 [Source for transaction data](https://www.blockchain.com/btc/tx/67b814526ae6ee78a16059bfcfc06ed7768c92c58f3409367cb180627631ddbe).
 
+
+A final interesting bit of note is the presence of a "search blacklist" button on the leaked Twitter screenshots within the Vice article. this backs up Vice's claims that Twitter is "shadowbanning" users on the platform (see [this](https://www.nytimes.com/2018/07/26/us/politics/twitter-shadowbanning.html) NY Times article). This bit of note was pointed out to me by a coworker, so I have to give them credit in spotting it.
+
+
+To add further weight to this, not only did Twitter vehemently deny the claim, they did so **[in front of congress](https://www.vox.com/2018/9/6/17824652/twitter-dorsey-energy-and-commerce-hearing-shadow-banning)** (see also, [The Verge's coverage](https://www.theverge.com/2018/7/27/17620194/twitter-shadow-ban-trump-conservatives-search-results)).
+
+I have to admit, while not founded in any deep logic, this casts doubt on the authenticity of the screenshots provided by Vice, which got shredded in the linked articles. The UI for the moderation tools also clash with Twitter's design philosophy slightly, but that could just be lack of polish on an internal tool.
+
+All in all, I'm left with many burning questions, sadly few of which I anticipate recieving a sound answer to.
