@@ -24,7 +24,7 @@ The summary of the facts as they stand is this:
 
 1. A large selection of high profile celebrity accounts advertised a Bitcoin Ponzi scam: "Send me your money and I'll send twice as much back"
 2. A selection of people fell for it, netting the scammers who'd broken into the accounts roughly 110k USD.
-3. Twitter support took a few hours to actually shut the whole thing down (and was still cleaning up for awhile after that)
+3. Twitter support took a few hours to shut the whole thing down (and was still cleaning up for a while after that)
 4. Vice managed to get in touch with the "hackers" who revealed that a Twitter employee gave them access
 
 
@@ -36,7 +36,7 @@ The answer is rather underwhelming, most evidence and accounts point to the atta
 
 Yep, that's it.
 
-From there they reset emails, disabled 2 factor authentication, and waltzed in the front door.
+From there they reset emails, disabled 2-factor authentication, and waltzed in the front door.
 
 The above Tweet ([direct link](https://twitter.com/TwitterSupport/status/1283591846464233474)) is a bit at ends with Vice's article, which states the following:
 
@@ -58,9 +58,9 @@ It's the crucial first response of a security incident that sets the tone for th
 The fallout for this event is hard to gauge, and it's going to be hard to see clearly for some time.
 
 
-Immediately, it stirred a bit in US politics, with a Republican senator contacting Twitter to ask if Donald Trumps account was affected. The fact that it wasn't might come as a surprise, given the potential for mayhem. This caused many to point fingers at Russia, which would've been potential if there wasn't now additional protections due to a Twitter staff member deleting Trump's account in November 2017. 
+Immediately, it stirred a bit in US politics, with a Republican senator contacting Twitter to ask if Donald Trump's account was affected. The fact that it wasn't might come as a surprise, given the potential for mayhem. This caused many to point fingers at Russia, which would've been potential if there weren't now additional protections due to a Twitter staff member deleting Trump's account in November 2017. 
 
-But, despite Twitter's protection on Trump, ex-presidential candidate Mike Bloomberg was also affected, showing that the protections only extened so far (my guess is just Trump and Twitter's CEO). The lack of protection from impersonation will most likely spur further govermental inquiry into how Twitter handles security, which may culminate in Twitter CEO Jack Dorsey being dragged in front of Congress once more.
+But, despite Twitter's protection on Trump, ex-presidential candidate Mike Bloomberg was also affected, showing that the protections only extended so far (my guess is just Trump and Twitter's CEO). The lack of protection from impersonation will most likely spur further governmental inquiry into how Twitter handles security, which may culminate in Twitter CEO Jack Dorsey being dragged in front of Congress once more.
 
 But, while politics may be interesting...
 
@@ -72,15 +72,15 @@ Or
 
 **Was it a smokescreen for harvesting DMs/Private Info/Whatever?**
 
-Within the infosec (ie: computer security nerds) community there's a large amount of surprise and questioning of why someone with the golden ticket to Twitter's systems would leverage it on a Bitcoin scam like they did, which would be a headache to cash out properly.
+Within the infosec (ie: computer security nerds) community, there's a large amount of surprise and questioning of why someone with the golden ticket to Twitter's systems would leverage it on a Bitcoin scam as they did, which would be a headache to cash out properly.
 
 <center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s like managing to sneak into Fort Knox and then running off after stuffing your pockets full of quarters</p>&mdash; Pwn All The Things (@pwnallthethings) <a href="https://twitter.com/pwnallthethings/status/1283719083175882755?ref_src=twsrc%5Etfw">July 16, 2020</a></blockquote></center><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The attack makes even less sense when you consider the difficulty in laundering large amounts of Bitcoin. There are services which can "clean" Bitcoin, but this gets harder and potentially pricier the more you have. 
+The attack makes even less sense when you consider the difficulty in laundering large amounts of Bitcoin. There are services that can "clean" Bitcoin, but this gets harder and potentially pricier the more you have. 
 
 To further illustrate why this is difficult, it's been leaked that the FBI closely monitors funds moving around the very publicly viewable Bitcoin network ([source](https://decrypt.co/34740/blueleaks-how-the-fbi-tracks-bitcoin-laundering-on-the-dark-web)). If the hackers are US based, they're looking to be in a world of hurt, especially with no way to easily flee the country in the current pandemic. 
 
-In fact, some people so strongly believed that Bitcoin was a poor choice, they sent the attackers messages in the form of transactions via specially crafted Bitcoin addresses:
+Some people so strongly believed that Bitcoin was a poor choice, they sent the attackers messages in the form of transactions via specially crafted Bitcoin addresses:
 
 ```
 1JustReadALL1111111111111114ptkoK 0.00000666 BTC
@@ -108,7 +108,7 @@ To add further weight to this, not only did Twitter vehemently deny the claim, t
 
 I have to admit, this casts doubt in my mind on the authenticity of the screenshots provided by Vice, which got shredded in the linked articles. The UI for the moderation tools also clash with Twitter's design philosophy slightly, but that could just be lack of polish on an internal tool.
 
-All in all, I'm left with many burning questions, sadly few of which I anticipate recieving a sound answer to.
+All in all, I'm left with many burning questions, sadly few of which I anticipate receiving a sound answer to.
 
 <hr />
 
