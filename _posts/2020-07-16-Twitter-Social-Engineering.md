@@ -11,9 +11,9 @@ For those out of the loop, Twitter has just had a very, very, very bad day.
 
 At time of writing they haven't given an official post mortem, something that will *definitely* be needed for them to regain even an ounce of trust from their users; most of which already dislike the platform. Twitter has demonstrated what most people who work in the industry already know: your security is only as strong as your staff, whether that be your developers or, in Twitter's case, your support team.
 
-![XKCD 2030](https://imgs.xkcd.com/comics/voting_software.png){:class="img-responsive"}
+![XKCD 2030][XKCD]{:class="img-responsive"}
 
-_([source](https://xkcd.com/2030/))_
+*([source][XKCD Source]{:target="_blank"})*
 
 # So what actually happened? (The short version)
 The summary of the facts as they stand is this:
@@ -39,11 +39,11 @@ Yep, that's it.
 
 From there, they disabled 2-factor authentication, reset emails, and waltzed in the front door.
 
-The tweet above ([direct link](https://twitter.com/TwitterSupport/status/1283591846464233474)) is a bit at ends with Vice's article, which states the following:
+The tweet above ([direct link][Twitter Support]{:target="_blank"}) is a bit at ends with Vice's article, which states the following:
 
 > "We used a rep that literally done all the work for us," one of the sources told Motherboard.
 
-_[Hackers Convinced Twitter Employee to Help Them Hijack Accounts - Motherboard, Tech By Vice](https://www.vice.com/en_us/article/jgxd3d/twitter-insider-access-panel-account-hacks-biden-uber-bezos)_
+*[Hackers Convinced Twitter Employee to Help Them Hijack Accounts - Motherboard, Tech By Vice][Vice]{:target="_blank"}*
 
 The difference in stories is to be expected, at this stage there is most likely a PR firm consuming coffee by the litre, planning out how to respond to this while the engineers at Twitter desperately try to fulfill the claims of the aforementioned PR firm.
 
@@ -85,7 +85,7 @@ Within the infosec (ie: computer security nerds) community, there's a large amou
 
 The attack makes even less sense when you consider the difficulty in laundering large amounts of Bitcoin. There are services that can "clean" Bitcoin, but this gets harder and potentially pricier the more you have. 
 
-To further illustrate why this is difficult, it's been leaked that the FBI closely monitors funds moving around the very publicly viewable Bitcoin network ([source](https://decrypt.co/34740/blueleaks-how-the-fbi-tracks-bitcoin-laundering-on-the-dark-web)). If the hackers are US based, they're looking to be in a world of hurt, especially with no way to easily flee the country in the current pandemic. 
+To further illustrate why this is difficult, it's been leaked that the FBI closely monitors funds moving around the very publicly viewable Bitcoin network ([source][FBI]{:target="_blank"}). If the hackers are US based, they're looking to be in a world of hurt, especially with no way to easily flee the country in the current pandemic. 
 
 Some people so strongly believed that Bitcoin was a poor choice, so they sent the attackers messages in the form of transactions via vanity (i.e. specially crafted) Bitcoin addresses:
 
@@ -102,15 +102,15 @@ Transcription:
 
 > "Just read all transaction outputs as text. You take [a] risk when you use Bitcoin for your Twitter game. Bitcoin is traceable. Why not Monero[?]"
 
-[Monero](https://en.wikipedia.org/wiki/Monero_%28cryptocurrency%29) is another cryptocurrency, which focuses more on privacy.
+[Monero][Monero]{:target="_blank"} is another cryptocurrency, which focuses more on privacy.
 
-[Source for transaction data](https://www.blockchain.com/btc/tx/67b814526ae6ee78a16059bfcfc06ed7768c92c58f3409367cb180627631ddbe).
+[Source for transaction data][Blockchain]{:target="_blank"}
 
 <hr/>
 
-A final interesting bit of note is the presence of a "search blacklist" button on the leaked Twitter screenshots within the Vice article. this backs up Vice's claims that Twitter is "shadowbanning" users on the platform (see [this](https://www.nytimes.com/2018/07/26/us/politics/twitter-shadowbanning.html) NY Times article). This bit of note was pointed out to me by a coworker, so I have to give them credit in spotting it.
+A final interesting bit of note is the presence of a "search blacklist" button on the leaked Twitter screenshots within the Vice article. this backs up Vice's claims that Twitter is "shadowbanning" users on the platform (see [this][NYTimes]{:target="_blank"} NY Times article). This bit of note was pointed out to me by a coworker, so I have to give them credit in spotting it.
 
-To add further weight to this, not only did Twitter vehemently deny the claim, they did so **[in front of congress](https://www.vox.com/2018/9/6/17824652/twitter-dorsey-energy-and-commerce-hearing-shadow-banning)** (see also, [The Verge's coverage](https://www.theverge.com/2018/7/27/17620194/twitter-shadow-ban-trump-conservatives-search-results)).
+To add further weight to this, not only did Twitter vehemently deny the claim, they did so **[in front of congress][Vox]{:target="_blank"}** (see also, [The Verge's coverage][Verge]{:target="_blank"}).
 
 I have to admit, this casts doubt in my mind on the authenticity of the screenshots provided by Vice, which got shredded in the linked articles. The UI for the moderation tools also clash with Twitter's design philosophy slightly, but that could just be lack of polish on an internal tool.
 
@@ -118,4 +118,17 @@ All in all, I'm left with many burning questions, sadly few of which I anticipat
 
 <hr/>
 
-A special thanks to the wonderful people over at [The Many Hats Club](https://discord.gg/infosec) for helping me edit this, especially [Arszilla](https://twitter.com/Arszilla) &hearts;
+A special thanks to the wonderful people over at [The Many Hats Club][TMHC]{:target="_blank"} for helping me edit this, especially [Arszilla][Arszilla]{:target="_blank"} &hearts;
+
+[XKCD]:             https://imgs.xkcd.com/comics/voting_software.png
+[XKCD Source]:      https://xkcd.com/2030/
+[Twitter Support]:  https://twitter.com/TwitterSupport/status/1283591846464233474
+[Vice]:             https://www.vice.com/en_us/article/jgxd3d/twitter-insider-access-panel-account-hacks-biden-uber-bezos
+[FBI]:              https://decrypt.co/34740/blueleaks-how-the-fbi-tracks-bitcoin-laundering-on-the-dark-web
+[Monero]:           https://en.wikipedia.org/wiki/Monero_%28cryptocurrency%29
+[Blockchain]:       https://www.blockchain.com/btc/tx/67b814526ae6ee78a16059bfcfc06ed7768c92c58f3409367cb180627631ddbe
+[NYTimes]:          https://www.nytimes.com/2018/07/26/us/politics/twitter-shadowbanning.html
+[Vox]:              https://www.vox.com/2018/9/6/17824652/twitter-dorsey-energy-and-commerce-hearing-shadow-banning
+[Verge]:            https://www.theverge.com/2018/7/27/17620194/twitter-shadow-ban-trump-conservatives-search-results
+[TMHC]:             https://discord.gg/infosec
+[Arszilla]:         https://twitter.com/Arszilla
