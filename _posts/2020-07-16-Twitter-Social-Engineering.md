@@ -22,22 +22,21 @@ _([source](https://xkcd.com/2030/))_
 
 The summary of the facts as they stand is this:
 
-1. A bunch of high profile celebrity accounts advertised a Bitcoin scam (in this case "Send me your money and I'll send twice as much back")
-2. A selection of people fell for it, netting the scammers who'd broken into the accounts roughly 110k USD (I'll come back to this, don't worry)
+1. A large selection of high profile celebrity accounts advertised a Bitcoin Ponzi scam: "Send me your money and I'll send twice as much back"
+2. A selection of people fell for it, netting the scammers who'd broken into the accounts roughly 110k USD.
 3. Twitter support took a few hours to actually shut the whole thing down (and was still cleaning up for awhile after that)
 4. Vice managed to get in touch with the "hackers" who revealed that a Twitter employee gave them access
 
 
 # How'd they do it?
 
-The answer is rather underwhelming, they bribed/social engineered a Twitter employee to hand over their God mode staff account.
+The answer is rather underwhelming, most evidence and accounts point to the attackers bribing or social engineering a Twitter employee to hand over their God mode staff account. This theory was later confirmed by TwitterSupport (in my opinion this doesn't _directly_ rule out the potential for a bribe)
+
+<center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">We detected what we believe to be a coordinated social engineering attack by people who successfully targeted some of our employees with access to internal systems and tools.</p>&mdash; Twitter Support (@TwitterSupport) <a href="https://twitter.com/TwitterSupport/status/1283591846464233474?ref_src=twsrc%5Etfw">July 16, 2020</a></blockquote></center>
 
 Yep, that's it.
 
 From there they reset emails, disabled 2 factor authentication, and waltzed in the front door.
-
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We detected what we believe to be a coordinated social engineering attack by people who successfully targeted some of our employees with access to internal systems and tools.</p>&mdash; Twitter Support (@TwitterSupport) <a href="https://twitter.com/TwitterSupport/status/1283591846464233474?ref_src=twsrc%5Etfw">July 16, 2020</a></blockquote> 
 
 The above Tweet ([direct link](https://twitter.com/TwitterSupport/status/1283591846464233474)) is a bit at ends with Vice's article, which states the following:
 
@@ -73,15 +72,15 @@ Or
 
 **Was it a smokescreen for harvesting DMs/Private Info/Whatever?**
 
-Within the infosec (read: computer security nerds) community there's a large amount of surprise and questioning of why someone with the golden ticket to Twitter's systems would leverage it on a Bitcoin scam like they did, which would be a headache to cash out properly.
+Within the infosec (ie: computer security nerds) community there's a large amount of surprise and questioning of why someone with the golden ticket to Twitter's systems would leverage it on a Bitcoin scam like they did, which would be a headache to cash out properly.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s like managing to sneak into Fort Knox and then running off after stuffing your pockets full of quarters</p>&mdash; Pwn All The Things (@pwnallthethings) <a href="https://twitter.com/pwnallthethings/status/1283719083175882755?ref_src=twsrc%5Etfw">July 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s like managing to sneak into Fort Knox and then running off after stuffing your pockets full of quarters</p>&mdash; Pwn All The Things (@pwnallthethings) <a href="https://twitter.com/pwnallthethings/status/1283719083175882755?ref_src=twsrc%5Etfw">July 16, 2020</a></blockquote></center><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The attack makes even less sense when you consider the difficulty in laundering large amounts of Bitcoin, there are services which do it for you, but it gets harder to hide the more you have. 
+The attack makes even less sense when you consider the difficulty in laundering large amounts of Bitcoin. There are services which can "clean" Bitcoin, but this gets harder and potentially pricier the more you have. 
 
-To further illustrate why this is difficult, it's been leaked that the FBI closely monitor funds moving around the very publicly viewable Bitcoin network ([source](https://decrypt.co/34740/blueleaks-how-the-fbi-tracks-bitcoin-laundering-on-the-dark-web)). If the hackers are US based, they're looking to be in a world of hurt, especially with no way to easily flee the country in the current pandemic. 
+To further illustrate why this is difficult, it's been leaked that the FBI closely monitors funds moving around the very publicly viewable Bitcoin network ([source](https://decrypt.co/34740/blueleaks-how-the-fbi-tracks-bitcoin-laundering-on-the-dark-web)). If the hackers are US based, they're looking to be in a world of hurt, especially with no way to easily flee the country in the current pandemic. 
 
-In fact, some people so strongly believed that Bitcoin was a poor choice they chose to send the attackers messages in the form of sending them money via specially crafted Bitcoin addresses:
+In fact, some people so strongly believed that Bitcoin was a poor choice, they sent the attackers messages in the form of transactions via specially crafted Bitcoin addresses:
 
 ```
 1JustReadALL1111111111111114ptkoK 0.00000666 BTC
@@ -92,13 +91,15 @@ In fact, some people so strongly believed that Bitcoin was a poor choice they ch
 1WhyNotMonero777777777777a14A99D8 0.00000671 BTC
 ```
 
-Translation: "Just read all transaction outputs as text. You take [a] risk when you use Bitcoin for your Twitter game. Bitcoin is traceable. Why not Monero[?]"
+Transcription:
 
-([Monero](https://en.wikipedia.org/wiki/Monero_%28cryptocurrency%29) is another cryptocurrency, which focuses more on privacy)
+> "Just read all transaction outputs as text. You take [a] risk when you use Bitcoin for your Twitter game. Bitcoin is traceable. Why not Monero[?]"
+
+[Monero](https://en.wikipedia.org/wiki/Monero_%28cryptocurrency%29) is another cryptocurrency, which focuses more on privacy.
 
 [Source for transaction data](https://www.blockchain.com/btc/tx/67b814526ae6ee78a16059bfcfc06ed7768c92c58f3409367cb180627631ddbe).
 
-<hr>
+<hr />
 
 A final interesting bit of note is the presence of a "search blacklist" button on the leaked Twitter screenshots within the Vice article. this backs up Vice's claims that Twitter is "shadowbanning" users on the platform (see [this](https://www.nytimes.com/2018/07/26/us/politics/twitter-shadowbanning.html) NY Times article). This bit of note was pointed out to me by a coworker, so I have to give them credit in spotting it.
 
@@ -109,3 +110,6 @@ I have to admit, this casts doubt in my mind on the authenticity of the screensh
 
 All in all, I'm left with many burning questions, sadly few of which I anticipate recieving a sound answer to.
 
+<hr />
+
+A special thanks to the wonderful people over at The Many Hats Club for helping me edit this <3, especially Arszila.
