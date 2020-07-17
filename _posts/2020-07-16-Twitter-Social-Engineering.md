@@ -37,7 +37,7 @@ The answer is rather underwhelming, most evidence and accounts point to the atta
 
 Yep, that's it.
 
-From there, they disabled 2-factor authentication, reset emails, and waltzed in the front door.
+From there, they disabled 2-factor authentication, reset emails and passwords, and waltzed in the front door.
 
 The tweet above ([direct link][Twitter Support]{:target="_blank"}) is a bit at ends with Vice's article, which states the following:
 
