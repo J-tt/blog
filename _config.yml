@@ -3,7 +3,7 @@ email: me@jett.dev
 description: >-
         jett's blog
 baseurl: ""
-url: "htps://blog.jett.dev"
+url: "https://blog.jett.dev"
 
 # Build settings
 remote_theme: chesterhow/tale
