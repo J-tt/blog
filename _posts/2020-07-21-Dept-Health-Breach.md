@@ -48,6 +48,8 @@ Coming back to the situation at hand, Johhny now has a live feed of the pagers g
 
 That last step, was the crucial one in this breach, but it did have the upside of revealing this horrific data leak, since it's impossible to tell who else was accessing this information.
 
+From my investigation, this website has been up and runnig for **the past 6 months**.
+
 ## Aftermath
 
 9 News picks up a scoop that "malicious hackers" have infiltrated the Department of Health, and sets a PR wheel in motion, which will hopefully inspire some semblance of change.
