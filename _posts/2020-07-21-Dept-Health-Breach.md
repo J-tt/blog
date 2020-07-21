@@ -31,7 +31,20 @@ Johhny has, through either poking around or just asking the right people, found 
 
 He sets up a server at his home (or somewhere with a residential connection) to pick up these radio broadcasts (which are coming from an antiquitated Vodafone service), and he connects it to the freely available and open source [PagerMon](https://github.com/pagermon/pagermon).
 
-Johhny now has a live feed of the pagers going off around the Department of Health, and to make it easier to share and view, **he sets it up so that anyone can access it**.
+#### An aside about paging
+The way paging works is a crucial aspect of this breach, so I'll include a little bit about it.
+
+Starting as a system for effectively saying "hey call me", paging evolved to carry full messages, acting almost the same as texting, but with one big difference, how it worked under the hood.
+
+![Pager diagram][pagerdiag]
+
+_Credit: [Explain That Stuff][explainthatstuff]_
+
+Paging works by sending your intended message to everyone, and then each device filters out the messages not intended for it.
+
+So from that explanation you can clearly see why this was not a hack, but more already publicly available information becoming more accessible.
+
+Coming back to the situation at hand, Johhny now has a live feed of the pagers going off around the Department of Health, and to make it easier to share and view, **he sets it up so that anyone can access it**.
 
 That last step, was the crucial one in this breach, but it did have the upside of revealing this horrific data leak, since it's impossible to tell who else was accessing this information.
 
@@ -42,3 +55,6 @@ That last step, was the crucial one in this breach, but it did have the upside o
 Unfortunately, 9 News decided to include screenshots of the page, which quickly lead anyone with some spare time to the website (which is now down). The website has been partially cached by Google, so **private information is still being leaked**.
 
 I just hope that the kid gets what he should, a slap on the wrists, and nothing more.
+
+[explainthatstuff]: 	https://www.explainthatstuff.com/howpagerswork.html
+[pagerdiag]:    	https://i.imgur.com/3v1pUjz.png
