@@ -28,7 +28,7 @@ Johhny has; through either poking around or just asking the right people, found 
 
 He sets up a server at his home (or somewhere with a residential connection) to pick up these radio broadcasts (which are coming from an antiquated Vodafone service), and he connects it to the freely available and open-source [PagerMon][Pagermon].
 
-#### An sidenote about paging
+#### A sidenote about paging
 The way paging works is a crucial aspect of this breach, so I'll include a little bit about it.
 
 Starting as a system for effectively saying "hey call me", paging evolved to carry full messages, acting almost the same as texting, but with one big difference, how it worked under the hood.
@@ -54,7 +54,11 @@ Unfortunately, 9 News decided to include screenshots of the page, which quickly 
 
 I just hope that Johnny gets what he should; a slap on the wrists, and nothing more.
 
+<hr>
+Thanks again to [Arszilla][Arszilla]{:target="_blank"} for helping out with editing!
+
 [Pagermon]:         https://github.com/pagermon/pagermon
 [explainthatstuff]: https://www.explainthatstuff.com/howpagerswork.html
-[pagerdiag]:        /images/2020-07-21-Dept-Health-Breach/paperdiag.png
+[pagerdiag]:        /images/2020-07-21-Dept-Health-Breach/pagerdiag.png
 [9news]:            https://www.9news.com.au/national/coronavirus-western-australia-wa-data-breach-medical-records-personal-information-hackers-website-covid19/0c78b0c4-29b1-423a-b39d-735841b203ef
+[Arszilla]:         https://twitter.com/Arszilla
