@@ -16,6 +16,8 @@ Before we can get into **why** this matters, we need to look back at what’s ha
 
 ![XKCD 927][standardscomic]
 
+*- Credit [XKCD 927](standardscomicsource)*
+
 In 2018, the Australian Government introduced CDR, the Consumer Data Right, which mandates that Australian Citizens should have access to their banking data in such a way that it can be transferred between licensed providers.
 
 This is similar to the European Payment Services Directive, which implements a set of standards for financial institutions to talk to each other and transfer data.
@@ -61,4 +63,5 @@ In a more technical post I might dig into the API further, and look at what sort
 Author's note: this blog post comes out in lieu of a separate planned one addressing the Meow attacks. Unfortunately, the prep for the post got delayed, if the attacks are still relevant next week, I'll try and run the story then.
 
 [standardscomic]:    https://imgs.xkcd.com/comics/standards.png
+[standardscomicsource]:    https://xkcd.com/927/
 
