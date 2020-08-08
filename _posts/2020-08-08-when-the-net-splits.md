@@ -75,7 +75,7 @@ There's already a collection of countries that heavily control what's available 
 
 For this to affect you, you don't even need to be in the country that's enforcing censorship, just nearby.
 
-![Subsea Cable Mp](peering)
+![Subsea Cable Map](peering)
 
 *[Source](peeringsrc)*
 
@@ -93,6 +93,6 @@ Countries that care about Privacy, such as EU members, will have no choice but t
 
 This level of control is disheartening, a once open platform ever converging to a censored, regulated, and divided forum.
 
-[laedcis]:	https://cyberlaw.stanford.edu/blog/2020/06/there%E2%80%99s-now-even-worse-anti-encryption-bill-earn-it-doesn%E2%80%99t-make-earn-it-bill-ok
-[peering]:	/images/2020-08-08-when-the-net-splits/peering.png
-[peeringsrc]:	https://www.submarinecablemap.com/
+[laedcis]:		https://cyberlaw.stanford.edu/blog/2020/06/there%E2%80%99s-now-even-worse-anti-encryption-bill-earn-it-doesn%E2%80%99t-make-earn-it-bill-ok
+[peering]:		/images/2020-08-08-when-the-net-splits/peering.png
+[peeringsrc]:		https://www.submarinecablemap.com/
