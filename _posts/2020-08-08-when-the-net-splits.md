@@ -41,7 +41,7 @@ To expand on the above, a few lines later we have the following:
 > "The bill’s wording is unambiguous: providers, across the spectrum of devices and information services, must design in the ability to decrypt data and provide it in intelligible form. That applies to providers that have more than a million U.S. users. This applies to both stored data (whether locally on a device, or remotely) and data in motion (i.e., communications in transit)."
 
 *Source: [There’s now an even worse anti-encryption bill than EARN IT.
-](laedcis)*
+][laedcis]*
 
 I highly recommend reading that article, if those quotes piqued your interest.
 
@@ -75,9 +75,9 @@ There's already a collection of countries that heavily control what's available 
 
 For this to affect you, you don't even need to be in the country that's enforcing censorship, just nearby.
 
-![Subsea Cable Map](peering)
+![Subsea Cable Map][peering]
 
-*[Source](peeringsrc)*
+*[Source][peeringsrc]*
 
 Subsea cables are everywhere, but they don't often connect places directly, instead connecting via hops, where for your data to reach its destination, it passes through several peering points.
 
